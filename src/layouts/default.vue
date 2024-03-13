@@ -19,7 +19,7 @@
 					<component :is="Component" />
 				</transition>
 			</router-view> -->
-			123
+			1234
 		</div>
 	</div>
 </template>
