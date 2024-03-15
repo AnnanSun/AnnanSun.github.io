@@ -1,25 +1,24 @@
 <template>
 	<div
 		font-sans
-		text=" gray-700 dark:gray-200"
+		text="center gray-700 dark:gray-200"
 		class="box-border h-screen w-full flex flex-col"
 	>
 		<div class="sticky top-0 z-999"><TheHeader /></div>
-		<div class="box-border w-full flex flex-col ">
-			<!-- <router-view v-if="$route.meta.keepAlive" v-slot="{ Component }">
+		<div class="box-border w-full flex flex-col items-center justify-center">
+			<router-view v-if="$route.meta.keepAlive" v-slot="{ Component }">
 				<transition name="move" mode="out-in">
 					<keep-alive>
 						<component :is="Component"></component>
 					</keep-alive>
 				</transition>
-			</router-view> -->
+			</router-view>
 
-			<!-- <router-view v-if="!$route.meta.keepAlive" v-slot="{ Component }">
+			<router-view v-if="!$route.meta.keepAlive" v-slot="{ Component }">
 				<transition>
 					<component :is="Component" />
 				</transition>
-			</router-view> -->
-			123
+			</router-view>
 		</div>
 	</div>
 </template>
