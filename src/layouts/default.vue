@@ -18,7 +18,7 @@
 				<transition>
 					<component :is="Component" />
 				</transition>
-			</router-view>
+			</router-view>4
 		</div>
 	</div>
 </template>
